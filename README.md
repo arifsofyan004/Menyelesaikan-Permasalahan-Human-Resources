@@ -17,15 +17,21 @@ Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sej
 
 ### Persiapan
 
-Sumber data: ....
+Sumber data: [....](https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee)
 
 Setup environment:
 ```
-
+conda create --name HumanResources python=3.9
+conda activate HumanResources
+pip install pandas matplotlib seaborn numpy scikit-learn xgboost plotly imbalanced-learn joblib
 ```
 
 ## Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+
+```
+https://app.powerbi.com/groups/b55d87d5-8f7f-438c-a9fc-f69c2155c150/reports/6a37047a-c972-42a8-ab78-37d1bd2ccaa7?ctid=a9363dc0-72ee-460b-8b09-7926ec16cd69&pbi_source=linkShare
+```
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
@@ -35,12 +41,18 @@ Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Se
 ```
 
 ## Conclusion
-Jelaskan konklusi dari proyek yang dikerjakan.
+Proyek ini memberikan wawasan yang berharga tentang faktor-faktor yang berkontribusi terhadap tingkat attrition di perusahaan. Analisis data menunjukkan bahwa variabel seperti usia, tingkat pendidikan, jenis kelamin, dan kepuasan kerja memiliki korelasi yang signifikan dengan attrition. Dari sini, dapat disimpulkan bahwa perusahaan perlu memperhatikan faktor-faktor ini dalam upaya untuk mengurangi tingkat attrition dan mempertahankan tenaga kerja yang berharga.
 
 ### Rekomendasi Action Items
 Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
 - action item 1
 - action item 2
 
-### link apikasi prediksi attrition:
+## Run steamlit app
+```
+streamlit run prediksi_attrition_app.py
+```
+## Untuk mencoba aplikasi bisa lewat link dibawah ini
+```
 https://aplikasi-prediksi-attrition.streamlit.app/
+```
