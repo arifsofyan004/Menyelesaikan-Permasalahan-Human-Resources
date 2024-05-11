@@ -4,10 +4,16 @@
 Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sejak 2000, memiliki lebih dari 1000 karyawan di seluruh negeri. Meskipun besar, perusahaan mengalami attrition rate yang tinggi (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Hal ini menunjukkan adanya masalah dalam retensi karyawan dan manajemen sumber daya manusia. Untuk menjaga pertumbuhan dan produktivitas, penting untuk memahami faktor-faktor yang memengaruhi kepuasan dan retensi karyawan.
 
 ### Permasalahan Bisnis
-Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
+- Menurunkan tingkat turnover karyawan (attrition) dalam perusahaan.
+- Meningkatkan pemahaman terhadap faktor-faktor yang memengaruhi keputusan karyawan untuk meninggalkan perusahaan.
+- Mengidentifikasi pola-pola yang berkaitan dengan attrition untuk pengambilan keputusan yang lebih efektif dalam manajemen sumber daya manusia.
 
 ### Cakupan Proyek
-Tuliskan cakupan proyek yang akan dikerjakan.
+- Analisis data untuk mengidentifikasi faktor-faktor yang berkorelasi dengan tingkat attrition.
+- Visualisasi dan pemodelan data untuk pemahaman yang lebih baik tentang pola-pola attrition.
+- Pengembangan strategi atau rekomendasi berdasarkan hasil analisis untuk mengurangi tingkat attrition.
+- Pembuatan Dashboard di Power BI
+- Melakukan deployment dengan membuat aplikasi prediksi attrition di streamlit
 
 ### Persiapan
 
