@@ -4,8 +4,8 @@ import numpy as np
 import joblib
 
 model_lr = joblib.load('logistic_regression_model.pkl')
-encoder = joblib.load('/content/preprocessor.pkl')
-image = '/content/Employee-Attrition.jpg'
+encoder = joblib.load('preprocessor.pkl')
+image = 'Employee-Attrition.jpg'
 
 def preprocess_input(data, encoder):
     data_encoded = encoder.transform(data)
