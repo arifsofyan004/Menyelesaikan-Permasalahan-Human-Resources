@@ -1,7 +1,7 @@
-# Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
+# Menyelesaikan-Permasalahan-Human-Resources
 
 ## Business Understanding
-Jelaskan latar belakang bisnis dari perushaan tersebut.
+Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sejak 2000, memiliki lebih dari 1000 karyawan di seluruh negeri. Meskipun besar, perusahaan mengalami attrition rate yang tinggi (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Hal ini menunjukkan adanya masalah dalam retensi karyawan dan manajemen sumber daya manusia. Untuk menjaga pertumbuhan dan produktivitas, penting untuk memahami faktor-faktor yang memengaruhi kepuasan dan retensi karyawan.
 
 ### Permasalahan Bisnis
 Tuliskan seluruh permasalahan bisnis yang akan diselesaikan.
@@ -35,3 +35,6 @@ Jelaskan konklusi dari proyek yang dikerjakan.
 Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
 - action item 1
 - action item 2
+
+### link apikasi prediksi attrition:
+https://aplikasi-prediksi-attrition.streamlit.app/
