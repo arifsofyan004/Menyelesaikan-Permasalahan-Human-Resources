@@ -27,17 +27,16 @@ pip install pandas matplotlib seaborn numpy scikit-learn xgboost plotly imbalanc
 ```
 
 ## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+Business dashboard yang telah dibuat memberikan gambaran lengkap tentang data karyawan perusahaan. Di dalamnya, terdapat informasi  seperti total jumlah karyawan, jumlah karyawan yang mengalami attrition, dan tingkat attrition secara keseluruhan. Selain itu, dashboard ini juga menampilkan jumlah karyawan yang aktif, jumlah karyawan dengan status "Unknown", serta berbagai plot yang menggambarkan hubungan attrition dengan berbagai faktor, seperti grup usia, jabatan, jarak tempuh, tahun bekerja, status pernikahan, lembur, dan jenis kelamin. Dengan demikian, dashboard ini memberikan pandangan menyeluruh yang dapat membantu manajemen dalam membuat keputusan strategis terkait pengelolaan sumber daya manusia perusahaan.
 
 ```
 https://app.powerbi.com/groups/b55d87d5-8f7f-438c-a9fc-f69c2155c150/reports/6a37047a-c972-42a8-ab78-37d1bd2ccaa7?ctid=a9363dc0-72ee-460b-8b09-7926ec16cd69&pbi_source=linkShare
 ```
 
 ## Menjalankan Sistem Machine Learning
-Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
 
 ```
-
+https://drive.google.com/file/d/1lS1cz-iM7NYQ9jru9E1z38id_TxFfvEC/view?usp=sharing
 ```
 
 ## Conclusion
