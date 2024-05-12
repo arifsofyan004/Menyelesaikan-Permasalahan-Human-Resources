@@ -44,9 +44,12 @@ Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Se
 Proyek ini memberikan wawasan yang berharga tentang faktor-faktor yang berkontribusi terhadap tingkat attrition di perusahaan. Analisis data menunjukkan bahwa variabel seperti usia, tingkat pendidikan, jenis kelamin, dan kepuasan kerja memiliki korelasi yang signifikan dengan attrition. Dari sini, dapat disimpulkan bahwa perusahaan perlu memperhatikan faktor-faktor ini dalam upaya untuk mengurangi tingkat attrition dan mempertahankan tenaga kerja yang berharga.
 
 ### Rekomendasi Action Items
-Berikan beberapa rekomendasi action items yang harus dilakukan perusahaan guna menyelesaikan permasalahan atau mencapai target mereka.
-- action item 1
-- action item 2
+- meninjau kembali kebijakan kompensasi untuk memastikan keseimbangan yang adil dan kompetitif
+- evaluasi kepuasan kerja di tingkat entry-level 
+- Meningkatkan program pengembangan karir untuk karyawan yang baru 
+- meningkatkan program keseimbangan kerja-hidup yang fleksibel
+- Pertimbangkan strategi untuk mengelola waktu dan tugas agar meminimalkan lembur yang berlebihan
+- menyediakan lebih banyak kesempatan pengembangan karir untuk karyawan yang berstatus single.
 
 ## Run steamlit app
 ```
