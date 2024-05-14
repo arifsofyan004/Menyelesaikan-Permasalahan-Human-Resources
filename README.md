@@ -43,7 +43,9 @@ Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapa
 
 1. **Download Script dan Dataset**
    - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
-     [Download Script](https://drive.google.com/file/d/1lS1cz-iM7NYQ9jru9E1z38id_TxFfvEC/view?usp=sharing)
+   ```
+   https://raw.githubusercontent.com/arifsofyan004/Menyelesaikan-Permasalahan-Human-Resources/main/employee_data.csv
+   ```
 
 2. **Setup Environment**
    - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
