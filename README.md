@@ -35,8 +35,44 @@ https://app.powerbi.com/groups/b55d87d5-8f7f-438c-a9fc-f69c2155c150/reports/6a37
 
 ## Menjalankan Sistem Machine Learning
 
+Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapat mengikuti langkah-langkah berikut. Langkah-langkah ini bertujuan untuk membantu departemen HR dalam menggunakan script tersebut untuk menganalisis data karyawan dan memprediksi tingkat attrition.
+
+## Menjalankan Sistem Machine Learning
+
+### Langkah-langkah:
+
+1. **Download Script dan Dataset**
+   - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
+     [Download Script](https://drive.google.com/file/d/1lS1cz-iM7NYQ9jru9E1z38id_TxFfvEC/view?usp=sharing)
+
+2. **Setup Environment**
+   - Buat environment baru menggunakan Anaconda atau virtual environment. Berikut adalah contoh cara membuat environment baru menggunakan Anaconda:
+     ```
+     conda create --name HumanResources python=3.9
+     conda activate HumanResources
+     ```
+   - Instal semua paket yang diperlukan dengan menggunakan pip:
+     ```
+     pip install pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scipy==1.11.4 plotly==5.15.0 imbalanced-learn==0.10.1 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+     ```
+
+3. **Jalankan Script**
+   - Buka script yang telah diunduh menggunakan IDE atau editor kode seperti Jupyter Notebook, VSCode, atau PyCharm.
+   - Pastikan dataset berada di lokasi yang benar dan sesuai dengan path yang ditentukan dalam script.
+   - Jalankan script untuk memulai proses training model machine learning dan evaluasi hasilnya.
+
+### Proses yang Dilakukan dalam Script:
+- **Load Dataset**: Membaca dataset karyawan.
+- **Preprocessing Data**: Melakukan pembersihan data dan preprocessing, termasuk handling missing values, encoding categorical variables, dan scaling.
+- **Oversampling**: Menggunakan SMOTE untuk menangani ketidakseimbangan kelas.
+- **Model Training**: Melatih model Logistic Regression dan XGBoost dengan hyperparameter tuning menggunakan GridSearchCV atau RandomizedSearchCV.
+- **Model Evaluation**: Mengevaluasi model menggunakan metrik seperti confusion matrix, classification report, dan ROC-AUC score.
+- **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan di masa mendatang.
+
+### Mengakses Aplikasi Prediksi Attrition:
+- Anda dapat mengakses Aplikasi Prediksi Attrition melalui link berikut:
 ```
-https://drive.google.com/file/d/1lS1cz-iM7NYQ9jru9E1z38id_TxFfvEC/view?usp=sharing
+https://aplikasi-prediksi-attrition.streamlit.app/
 ```
 
 ## Conclusion
@@ -53,8 +89,4 @@ Proyek ini memberikan wawasan yang berharga tentang faktor-faktor yang berkontri
 ## Run steamlit app
 ```
 streamlit run prediksi_attrition_app.py
-```
-## Untuk mencoba aplikasi bisa lewat link dibawah ini
-```
-https://aplikasi-prediksi-attrition.streamlit.app/
 ```
