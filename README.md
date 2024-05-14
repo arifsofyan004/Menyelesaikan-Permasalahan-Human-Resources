@@ -44,7 +44,7 @@ Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapa
 1. **Download Script dan Dataset**
    - Pastikan Anda telah mengunduh script dan dataset yang diperlukan. Anda dapat mengunduh script machine learning dari link berikut:
    ```
-   https://raw.githubusercontent.com/arifsofyan004/Menyelesaikan-Permasalahan-Human-Resources/main/employee_data.csv
+   https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
    ```
 
 2. **Setup Environment**
