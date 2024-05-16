@@ -73,7 +73,7 @@ Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapa
 - **Oversampling**: Menggunakan SMOTE untuk menangani ketidakseimbangan kelas.
 - **Model Training**: Melatih model Logistic Regression dan XGBoost dengan hyperparameter tuning menggunakan GridSearchCV atau RandomizedSearchCV.
 - **Model Evaluation**: Mengevaluasi model menggunakan metrik seperti confusion matrix, classification report, dan ROC-AUC score.
-- **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan di masa mendatang.
+- **Model Saving**: Menyimpan model yang terlatih menggunakan joblib untuk digunakan deployment membuat aplikasi prediksi attrition.
 
 ### Mengakses Aplikasi Prediksi Attrition:
 - Anda dapat mengakses Aplikasi Prediksi Attrition melalui link berikut:
