@@ -102,8 +102,8 @@ def display_sidebar():
 
 def predict_attrition(data):
     data_encoded = preprocess_input(data, encoder)
-    prediction = model_lr.predict(data_encoded)
-    return prediction[0]
+    probability = model_lr.predict_proba(data_encoded)[:, 1]
+    return probability[0
 
 def main():
     st.set_page_config(page_title="Aplikasi Prediksi Attrition", page_icon=":bar_chart:", layout="wide")
@@ -117,12 +117,14 @@ def main():
     st.markdown("***")
 
     if st.sidebar.button("Prediksi"):
-        prediction = predict_attrition(input_data)
+        probability = predict_attrition(input_data)
         st.subheader("Hasil Prediksi Attrition:")
-        if prediction == 1:
+        st.write("Probabilitas Attrition:", probability)
+        if probability > 0.5:
             st.error("Ya")
         else:
             st.success("Tidak")
+
 
     st.markdown("***")
     st.markdown(
