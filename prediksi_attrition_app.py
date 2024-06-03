@@ -103,7 +103,7 @@ def display_sidebar():
 def predict_attrition(data):
     data_encoded = preprocess_input(data, encoder)
     probability = model_lr.predict_proba(data_encoded)[:, 1]
-    return probability[0]
+    return round(probability[0], 2)]
 
 def main():
     st.set_page_config(page_title="Aplikasi Prediksi Attrition", page_icon=":bar_chart:", layout="wide")
