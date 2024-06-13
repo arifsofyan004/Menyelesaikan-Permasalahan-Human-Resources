@@ -4,9 +4,11 @@
 Perusahaan Jaya Jaya Maju merupakan perusahaan multinasional yang beroperasi sejak 2000, memiliki lebih dari 1000 karyawan di seluruh negeri. Meskipun besar, perusahaan mengalami attrition rate yang tinggi (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. Hal ini menunjukkan adanya masalah dalam retensi karyawan dan manajemen sumber daya manusia. Untuk menjaga pertumbuhan dan produktivitas, penting untuk memahami faktor-faktor yang memengaruhi kepuasan dan retensi karyawan.
 
 ### Permasalahan Bisnis
-- Menurunkan tingkat turnover karyawan (attrition) dalam perusahaan.
-- Meningkatkan pemahaman terhadap faktor-faktor yang memengaruhi keputusan karyawan untuk meninggalkan perusahaan.
-- Mengidentifikasi pola-pola yang berkaitan dengan attrition untuk pengambilan keputusan yang lebih efektif dalam manajemen sumber daya manusia.
+- **Tingkat Attrition yang Tinggi**: Perusahaan mengalami tantangan dalam menurunkan tingkat turnover karyawan, yang dapat mengganggu kontinuitas operasional dan stabilitas tim.
+- **Kekurangan Sumber Daya Manusia**: Setiap kali karyawan meninggalkan perusahaan, itu berarti kehilangan sumber daya manusia yang berpengalaman dan berpotensi, mengakibatkan biaya tambahan untuk merekrut dan melatih karyawan baru.
+- **Pentingnya Analisis Faktor-Faktor**: Memahami faktor-faktor yang mempengaruhi keputusan karyawan untuk meninggalkan perusahaan menjadi kunci untuk mengimplementasikan strategi retensi yang efektif.
+- **Dampak Terhadap Produktivitas**: Tingginya tingkat attrition dapat mengganggu produktivitas tim, mempengaruhi morale karyawan, dan mengurangi efisiensi operasional.
+- **Risiko Reputasi dan Kompetitivitas**: Attrition yang tinggi dapat merusak reputasi perusahaan sebagai tempat kerja yang stabil dan mengurangi daya tarik bagi calon karyawan, mempengaruhi kemampuan perusahaan untuk bersaing di pasar tenaga kerja.
 
 ### Cakupan Proyek
 - Analisis data untuk mengidentifikasi faktor-faktor yang berkorelasi dengan tingkat attrition.
@@ -23,7 +25,7 @@ Setup environment:
 ```
 conda create --name HumanResources python=3.9
 conda activate HumanResources
-pip install pandas matplotlib seaborn numpy scikit-learn xgboost plotly imbalanced-learn joblib
+pip install -r requirements.txt
 ```
 
 ## Business Dashboard
@@ -59,7 +61,7 @@ Untuk menjalankan prototipe sistem machine learning yang telah dibuat, Anda dapa
      ```
    - Instal semua paket yang diperlukan dengan menggunakan pip:
      ```
-     pip install pandas==2.0.3 matplotlib==3.7.1 seaborn==0.13.1 numpy==1.25.2 scipy==1.11.4 plotly==5.15.0 imbalanced-learn==0.10.1 scikit-learn==1.2.2 xgboost==2.0.3 joblib==1.4.2
+     pip install -r requirements.txt
      ```
 
 3. **Jalankan Script**
